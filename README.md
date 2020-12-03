@@ -6,7 +6,7 @@
 ```
 ### .config >> busybox-1.*/
 sudo apt install gcc-mips-linux-gnu
-tar -xjf busybox-1.32.0.tar.bz2
+tar -xjf busybox-1*.tar.bz2
 cd busybox-1.*/
 make -j4 menuconfig
 make -j4
