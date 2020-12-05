@@ -11,6 +11,7 @@ cd busybox-1.*/
 make -j4 menuconfig
 make -j4
 sudo make -j4 install DESTDIR=/PATH/to/squashfs-root/
+sudo sh ./clear_addons_other-dir.sh                 // Edit for youre dir '_install'
 --------------------------------------------------
 You will probably need to make your busybox binary
 setuid root to ensure all configured applets will
