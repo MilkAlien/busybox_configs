@@ -17,6 +17,6 @@ setuid root to ensure all configured applets will
 work properly.
 --------------------------------------------------
 sudo shmod +s /PATH/to/squashfs-root/bin/busybox    // По желанию!
-sudo cp -r _install/* /PATH/to/squashfs-root/
+sudo cp -ar _install/* /PATH/to/squashfs-root/
 sudo mksquashfs squashfs-root/ gpon.squashfs -comp lzma -b 131072 -nopad
 ```
