@@ -1,6 +1,6 @@
 # busybox_configs
 
-(ADSL modem/router *****v4)
+FG824CD (ADSL modem/router *****v4)
 
 
 ```
