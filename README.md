@@ -21,7 +21,7 @@ sudo chmod +s _install/bin/busybox    // По желанию!
 sudo cp -ar _install/* /PATH/to/squashfs-root/
 sudo mksquashfs squashfs-root/ gpon.squashfs -comp lzma -b 131072 -nopad
 ```
-# QEMU test rootfs
+# QEMU test rootfs mips
 ```
 sudo apt install qemu-user-static
 cd /PATH/to/squashfs-root/
